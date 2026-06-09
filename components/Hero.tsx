@@ -76,7 +76,7 @@ export function Hero() {
           </div>
         </div>
 
-        <dl className={`grid grid-cols-1 gap-6 border-t pt-8 sm:grid-cols-3 sm:gap-8 ${ui.statsBorder}`}>
+        <dl className="grid grid-cols-1 gap-6 pt-8 sm:grid-cols-3 sm:gap-8">
           <div>
             <dt className="font-mono text-xs font-bold uppercase tracking-normal text-[#c3b398]">
               {t.hero.stats.location}
